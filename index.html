@@ -88,6 +88,10 @@
                     border-radius: 8px;
                     font-size: 16px;
             }
+            label{
+                font-weight: bolder;
+                font-size: 20px;
+            }
     </style>
     <head>
         <body>
@@ -100,14 +104,14 @@
             <div class = "container2_for_text">
                 <div class="input-group">
                     
-                        <h3>Enter your name</h3>
-                        <input type='text' name='username' placeholder="Type your name here">
-                        <h3>Enter your address</h3>
-                        <input type='text' name='address' placeholder="Type your address here">
-                        <h3>Enter your contact number</h3>
-                        <input type="integer" name="contactnumber" placeholder="Type your contact number here">
-                        <h3>Enter your email ID</h3>
-                        <input type="text" name="email" placeholder="Type your email ID here">
+                        <label for="username">Enter your name</label>
+                        <input type='text' name='username' id="username" placeholder="Type your name here">
+                        <label for="address">Enter your address</label>
+                        <input type='text' name='address' id="address" placeholder="Type your address here">
+                        <label for="contactnumber">Enter your contact number</label>
+                        <input type="integer" name="contactnumber" id="contactnumber" placeholder="Type your contact number here">
+                        <label for="email">Enter your email ID</label>
+                        <input type="text" name="email" id="email" placeholder="Type your email ID here">
                 </div>
                 <div class="SUBMIT">
                     <button type="submit">SUBMIT</button>
